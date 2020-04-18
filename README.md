@@ -14,4 +14,4 @@ The [detection analysis](/detection_analysis.ipynb) is the analysis of the error
 It was decided that the SIFT detector has a better performance because for each error a graph of vilin plots comparing the three detectors was made and the SIFT detector had a median closer to zero and that the standard deviation was the smaller compared to the other two detectors.
 
 ## Controller Errors Analysis
-The [detection analysis](/detection_analysis.ipynb) is the analysis of the errors obtained from the autonomous landing process on the platform. Three controllers were tested (P Proportional, PI Proportinal-Integral, PID Proportinal-Integral-Derivative), five times each, to determine which of them have a better performance.
+The [controller error analysis](/controller_errors_analysis.ipynb) is the analysis of the errors obtained from the autonomous landing process on the platform. Three controllers were tested (P Proportional, PI Proportinal-Integral, PID Proportinal-Integral-Derivative), five times each, to determine which of them have a better performance.
