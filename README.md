@@ -11,11 +11,11 @@ Python3:
 ## Detection Analysis
 The [detection analysis](/detection_analysis.ipynb) is the analysis of the errors obtained from the detection process of the landing system to locate the landing platform. This detection process was performed three times using three different detectors: ORB, SIFT and SURF. The objective of this analysis was to determine which of the detectors have a better performance using five states that represents the position of te platform in the images obtaine from the UAV's camera:
 
-    - Centroid X coordinate of the platform
-    - Centroid Y coordinate of the platform
-    - Height of the platform
-    - Width of the platform
-    - Angle (between the platform and the horizontal of the image)
+ - Centroid X coordinate of the platform
+ - Centroid Y coordinate of the platform
+ - Height of the platform
+ - Width of the platform
+ - Angle (between the platform and the horizontal of the image)
 
 It was decided that the SIFT detector has a better performance because for each error a graph of vilin plots comparing the three detectors was made and the SIFT detector had a median closer to zero and that the standard deviation was the smaller compared to the other two detectors.
 
