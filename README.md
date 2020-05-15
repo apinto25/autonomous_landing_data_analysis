@@ -1,10 +1,9 @@
 # Autonomous Landing Data Analysis
 This project is the data analysis of the results obtained from a simulation of an autonomous landing system of a UAV using ROS and Gazebo. In the [autonomous_landing_uav](https://github.com/MikeS96/autonomous_landing_uav) repository you can find the simulation of the UAV (DJI f450) from which the data was obtained to perform the analysis.
 
-<img src="./public/landing_process/features.png" width="200">
-<img src="./public/landing_process/corners.png" width="200">
-<img src="./public/landing_process/tracking.png" width="200">
-<img src="./public/landing_process/drone.png" width="200">
+ <p align="center">
+    <img src="./public/landing_process/features.png" width="180"> <img src="./public/landing_process/corners.png" width="180"> <img src="./public/landing_process/tracking.png" width="180"> <img src="./public/landing_process/drone.png" width="180">
+</p>
 
 ## Requirements
 Python3:
