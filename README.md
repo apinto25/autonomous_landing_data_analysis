@@ -21,6 +21,10 @@ The [detection analysis](/detection_analysis.ipynb) is the analysis of the error
  - Width of the platform
  - Angle (between the platform and the horizontal of the image)
 
+<p align="center">
+    <img src="./public/analysis_graphs/state_errors.png" width="728">
+</p>
+
 It was decided that the SIFT detector has a better performance because for each error a graph of vilin plots comparing the three detectors was made and the SIFT detector had a median closer to zero and that the standard deviation was the smaller compared to the other two detectors.
 
 ## Controller Errors Analysis
@@ -31,7 +35,7 @@ The [controller error analysis](/controller_errors_analysis.ipynb) is the analys
 </p>
 
 ## Controller States Analysis
-The [controller states analysis](/controller_states_analysis.ipynb) is the analysis of the controller states (same states of the detection analysis). Here it is expected that the width and height of the estimation of the landing platform increases as the drone lands, while the (x, y) centroind coordinates are expected to be (320, 240) as this coordinate is the center of the image size of the drone's camera (640x480). The angle it is expected to tend to zero, because to land the landing platform must be aligned with the horizontal of the dron'es camera.
+The [controller states analysis](/controller_states_analysis.ipynb) is the analysis of the controller states (same states of the detection analysis). Here it is expected that the width and height of the estimation of the landing platform increases as the drone lands, while the (x, y) centroind coordinates are expected to be (320, 240) as this coordinate is the center of the image size of the drone's camera (640x480). The angle it is expected to tend to zero, because to land the landing platform must be aligned with the horizontal of the drone's camera.
 
 
 <p align="center">
